@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  /* start debug
+  border: 2px solid;
+   end debug*/
+  max-width: 1200px;
+  margin:auto;
+}
+
+#intestazione{
+  /* start debug*/
+  background-color: yellow;
+  height:200px;
+  margin-bottom: 5px;
+  /*end debug*/
+  width: 100%;
+}
+
+
+.nav{
+  /* start debug*/
+  height: 50px;
+  background-color: orange;
+  margin-bottom: 5px;
+  /*end debug*/
+  width: 100%;
+
+}
+
+main{
+  /* start debug*/
+  height: 100px;
+  background-color: pink;
+  /*end debug*/
+    margin-bottom: 5px;
+  width: 100%;
+}
+footer{
+  /* start debug*/
+  height: 100px;
+  background-color: grey;
+  /*end debug*/
+}
