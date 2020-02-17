@@ -21,7 +21,6 @@
   width: 100%;
 }
 
-
 .nav{
   /* start debug*/
   height: 50px;
@@ -35,11 +34,50 @@
 main{
   /* start debug*/
   height: 100px;
-  background-color: pink;
+
   /*end debug*/
-    margin-bottom: 5px;
+  margin-bottom: 5px;
   width: 100%;
 }
+
+/* INIZIO SEZIONE SINISTRA*/
+#sez_sx{
+  /* start debug*/
+  height: 200px;
+  border: 2px solid red;
+  /*end debug*/
+  margin-bottom: 5px;
+  width: 20%;
+  float: left;
+}
+
+.section{
+  height: 50px;
+  background-color: green;
+  /*end debug*/
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+aside{
+  /*start debug */
+  height: 80px;
+  background-color: blue;
+  /*end debug*/
+  margin-bottom: 5px;
+  width: 100%
+  float: left;
+}
+
+#sez_sx::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*FINE SEZIONE SINISTRA*/
+
+
 footer{
   /* start debug*/
   height: 100px;
