@@ -43,7 +43,6 @@ main{
 /* INIZIO SEZIONE SINISTRA*/
 #sez_sx{
   /* start debug*/
-  height: 200px;
   border: 2px solid red;
   /*end debug*/
   margin-bottom: 5px;
@@ -78,9 +77,35 @@ aside{
 /*FINE SEZIONE SINISTRA*/
 
 
+/* INIZIO SEZIONE CENTRALE*/
+#sez_central{
+  /* start debug*/
+  border: 2px solid purple;
+  border-bottom: 2px solid black;
+  /*end debug*/
+  margin: 0 10px;
+  width: 40%;
+  float: left;
+}
+
+.div_centrali{
+  /*debug*/
+  height: 300px;
+  background-color: grey;
+  margin-bottom: 5px;
+  /*end debug*/
+  width: 100%;
+}
+
+#sez_central::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
 footer{
   /* start debug*/
   height: 100px;
-  background-color: grey;
+  background-color: black;
   /*end debug*/
 }
